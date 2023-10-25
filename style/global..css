@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+@font-face {
+  font-family: fonts;
+  src: url(/font/Roboto-Bold.ttf);
+}
+.fonts{
+  font-family: "font";
+
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.nav-item {
+  text-align: center;
+  background-color: brown;
+  color: wheat;
+  padding: 7px;
+  position: fixed;
+  width: 1286px;
+}
+
+.item-1 {
+  display: flex;
+  padding: 10px;
+  font-family: "fonts";
+}
+.li-item {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.item-1 a {
+  text-decoration: none;
+  color: brown;
+}
+
+.nav-clock {
+  margin-top: 30px;
+}
+
+.now {
+  width: 95px;
+  margin-left: 333px;
+}
+.akaunt {
+  margin-left: 450px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 14px;
+  color: brown;
+  margin-top: 8px;
+  font-family: "font";
+}
+
+.selection {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.now {
+  margin-top: 30px;
+}
+
+.qulp {
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+.edit {
+  display: flex;
+  margin-top: 30px;
+}
+
+.go {
+  color: brown;
+  margin-top: 6px;
+  font-family: "font";
+}
+
+.end {
+  width: 1300px;
+  height: 420px;
+  margin: 0 auto;
+  background-image: url(/img/Rectangle.jpg);
+}
+
+.run {
+  margin-left: 656px;
+  margin-top: 332px;
+  background-color: brown;
+  color: #fff;
+  width: 100px;
+  height: 42px;
+  font-family: "font";
+}
+.run:hover {
+  background-color: rgb(226, 99, 99);
+  color: #a9ae8d;
+}
+
+.help {
+  background-color: #a9ae8d;
+  margin: 0 auto;
+  width: 1300px;
+  height: 230px;
+  color: white;
+}
+
+.pg {
+  position: relative;
+  left: 70px;
+  top: 69px;
+  font-size: 15px;
+  font-family: "font";
+}
+.pd {
+  margin-bottom: 44px;
+  margin-top: 32px;
+  position: relative;
+  left: 70px;
+  top: 55px;
+  font-size: 33px;
+  font-family: "font";
+}
+
+.sc {
+  position: relative;
+  left: 70px;
+  top: 45px;
+  font-size: 14px;
+  font-family: "font";
+}
+.shorts {
+  text-align: center;
+  margin-top: 25px;
+  color: brown;
+  font-size: 23px;
+  font-family: "font";
+}
+
+.block1 img {
+  width: 282px;
+}
+
+.block2 img {
+  width: 282px;
+  margin-left: 45px;
+}
+.block3 img {
+  width: 282px;
+  margin-left: 45px;
+}
+.block {
+  display: flex;
+  margin-top: 25px;
+}
+
+.foot {
+  width: 999px;
+  margin: 0 auto;
+}
+
+.block:hover {
+  background-color: #832727;
+}
+
+.meet img {
+  width: 66px;
+  height: 9px;
+}
+
+.bal {
+  position: relative;
+  left: 45px;
+}
+
+.shaz {
+  color: brown;
+  font-family: "font";
+}
+
+.bal {
+  color: brown;
+  font-family: "font";
+}
+.prince img {
+  width: 1116px;
+  height: 294px;
+  position: relative;
+  left: 90px;
+  top: 50px;
+}
+
+.lacure {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 91px;
+  background-color: #df9b7a;
+  width: 1117px;
+  height: 50px;
+}
+
+.lacure:hover {
+  background: #ec6a6a;
+}
+.smitty {
+  position: relative;
+  top: 17px;
+  left: 25px;
+  color: white;
+  font-size: 20px;
+  font-family: "font";
+}
+.rich {
+  position: relative;
+  top: 15px;
+  right: 25px;
+  color: #fff;
+  font-size: 13px;
+  font-family: "font";
+}
+.prt {
+  width: 1300px;
+  height: 700px;
+}
+.esc {
+  width: 660px;
+  height: 480px;
+  position: relative;
+  top: 170px;
+  background-color: #fff;
+  right: 200px;
+}
+.group {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  color: brown;
+  font-family: "font";
+}
+.dolor {
+  position: relative;
+  top: 70px;
+  width: 274px;
+  left: 50px;
+  color: brown;
+}
+.shark {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  color: brown;
+  font-family: "font";
+  font-family: "font";
+}
+.music {
+  width: 450px;
+  position: relative;
+  left: 250px;
+  top: 40px;
+  height: 620px;
+}
+
+.got {
+  display: flex;
+  background-color: #f1d3b9;
+  margin-top: 50px;
+  height: 710px;
+}
+.code img {
+  position: relative;
+  width: 250px;
+  height: 386px;
+  top: 310px;
+  right: 510px;
+}
+
+.frame {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 25px;
+  font-family: "font";
+}
+
+.neque img {
+  width: 1300px;
+  margin-top: 25px;
+}
+
+.tab {
+  list-style: none;
+  line-height: 25px;
+}
+.list {
+  text-decoration: none;
+  color: brown;
+}
+.page {
+  display: flex;
+  width: 804px;
+  margin-left: 55px;
+
+}
+
+.page2 {
+  margin-left: 123px;
+}
+
+.admin {
+  display: flex;
+  background-color: #f6f4ec;
+}
+.ask {
+  color: brown;
+  font-size: 14px;
+}
+.oddel {
+  border: 2px solid brown;
+  padding: 7px;
+  margin-top: 15px;
+}
+
+.visual {
+  margin-left: 400px;
+  font-size: 13px;
+  font-family: "font";
+
+}
+.qwer {
+  font-size: 14px;
+  margin-top: 15px;
+  font-family: "font";
+}
+
+.shift {
+  color: brown;
+  background: #f6f4ec;
+}
+
+.shift p {
+  margin-left: 20px;
+  font-family: "font";
+}
+
+.qizil {
+  background: #f6f4ec;
+  width: 1300px;
+  height: 80px;
+}
